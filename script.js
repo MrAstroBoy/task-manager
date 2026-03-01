@@ -38,7 +38,8 @@ function renderTasks(filter = "all") {
 
     li.innerHTML = `
       <div>
-        <strong>${task.title}</strong> - ${task.description} <br>
+        <strong>${task.title}</strong><br>
+        ${task.description}<br>
         Due: ${task.dueDate}
       </div>
       <div>
